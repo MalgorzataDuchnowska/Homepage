@@ -1,0 +1,43 @@
+.article__header {
+    color: rgb(11 0 255);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.article__paragraph {
+    text-align: left;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+.article_handMade {
+    margin: 0 auto;
+    max-width: 417px;
+}
+
+.article_picturesHandMade {
+    border: 5px double rgb(187 183 180);
+    max-width: 417px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.article__buttonZazu {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.article__buttonZazu--styled {
+    text-align: center;
+    width: 180px;
+    background-color: rgb(234 231 224);
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.article__pictures {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 10px;
+}

@@ -1,0 +1,21 @@
+    html {
+        box-sizing: border-box;
+    }
+
+    *, ::after, ::before {
+        box-sizing: inherit;
+    }
+
+    .body {
+        font-family: 'Raleway', sans-serif;
+        line-height: 2;
+        background-color: rgb(240 180 10 / 15%);
+        color: black;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .darkTheme {
+        background-color: black;
+        color: white;
+    }

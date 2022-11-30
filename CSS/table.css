@@ -1,0 +1,55 @@
+.table__container {
+    overflow-x: auto;
+}
+
+.table__header {
+    color: rgb(11 0 255);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table__caption {
+    padding: 20px;
+    margin: 0 auto;
+    font-weight: 700;
+    text-align: center;
+    caption-side: bottom;
+}
+
+.table__row:nth-child(even) {
+    background-color: rgba(247, 192, 201, 0.719);
+}
+
+.table__row:hover {
+    background-color: rgba(243, 137, 155, 0.719);
+}
+
+.table__cell {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__cellHeader {
+    background-color: pink;
+    color: black
+}
+
+.table__link {
+    text-decoration: none;
+}
+
+.table__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.table__link:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
